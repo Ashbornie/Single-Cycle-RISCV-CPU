@@ -49,20 +49,17 @@ This project demonstrates the design of a single-cycle CPU using the RISC-V ISA 
 ## ⚙️ **Key Components**
 
 * **riscv\_cpu.v :**
-
-Main CPU module connecting all components.
+ Main CPU module connecting all components.
 
 ![CPU Block](images/cpu.png)
 
 * **controller.v :**
-
  Decodes instruction opcodes and generates control signals to drive ALU, memory, and register operations.
 
 ![controller](images/controller.png)
 
 * **datapath.v :**
-
-Processes the intructions and acts upon jump, branch, alu, imm_ext instructions.
+ Processes the intructions and acts upon jump, branch, alu, imm_ext instructions.
 
 ![datapath](images/datapath.png)
 
