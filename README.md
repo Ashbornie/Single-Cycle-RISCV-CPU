@@ -44,7 +44,8 @@ This project demonstrates the design of a single-cycle CPU using the RISC-V ISA 
 Example placeholder:
 
 ```
-![TOP MODULE](images/top_module.png)
+![TOP MODULE](D:\GITHUB\Single Cycle RISCV CPU\images\top_module.png)
+
 ```
 
 ---
