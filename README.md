@@ -75,7 +75,9 @@ This project demonstrates the design of a single-cycle CPU using the RISC-V ISA 
 
 ## 📸 **Stats for Nerds**
 
-![Stats](images/stats.png)
+<p align="center">
+  <img src="images/stats.png" alt="Stats" />
+</p>
 
 ---
 
