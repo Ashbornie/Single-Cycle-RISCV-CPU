@@ -73,19 +73,9 @@ This project demonstrates the design of a single-cycle CPU using the RISC-V ISA 
 
 ---
 
-## 📸 **Images**
+## 📸 **Stats for Nerds**
 
-* CPU Block Diagram
-
-![CPU Block](images/cpu.png)
-
-* ALU, Register File, Data Path schematics
-
-![DataPath](images/datapath.png)
-
-* Stats for Nerds
-
-![CPU Block](images/stats.png)
+![Stats](images/stats.png)
 
 ---
 
