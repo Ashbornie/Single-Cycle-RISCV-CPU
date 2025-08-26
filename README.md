@@ -40,13 +40,8 @@ This project demonstrates the design of a single-cycle CPU using the RISC-V ISA 
 
 ## 🖼 **Architecture**
 
-*(Insert block diagram image here)*
-Example placeholder:
-
-```
 ![TOP MODULE](images/top_module.png)
 
-```
 
 ---
 
