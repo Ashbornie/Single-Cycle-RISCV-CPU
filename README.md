@@ -8,12 +8,16 @@ A Verilog-based implementation of a **Single-Cycle RISC-V CPU** supporting the *
 
 This project demonstrates the design of a single-cycle CPU using the RISC-V ISA (RV32I). It includes:
 
+* **RISCV CPU**
+* **Controller**
+* **Datapath**
 * **Instruction Memory**
 * **Data Memory**
-* **Control Unit**
+* **Main Decoder**
+* **ALU Decoder**
 * **Register File**
 * **ALU**
-* **Immediate Generator**
+* **Immediate Extenders**
 * **Program Counter**
 * **Supporting Components** (Mux, Adders, etc.)
 * **Testbench for Simulation**
