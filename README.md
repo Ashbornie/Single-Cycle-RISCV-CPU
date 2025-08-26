@@ -73,6 +73,22 @@ This project demonstrates the design of a single-cycle CPU using the RISC-V ISA 
 
 ---
 
+## 📸 **Images**
+
+* CPU Block Diagram
+
+![CPU Block](images/cpu.png)
+
+* ALU, Register File, Data Path schematics
+
+![DataPath](images/datapath.png)
+
+* Stats for Nerds
+
+![CPU Block](images/stats.png)
+
+---
+
 ## 🧪 **Testbench**
 
 * **tb.v**
@@ -124,21 +140,6 @@ The file **rv32i\_test.s** tests all RV32I instructions:
 * **Jump**: JAL, JALR
 * **Upper Immediate**: LUI, AUIPC
 
----
-
-## 📸 **Images**
-
-* CPU Block Diagram
-
-![CPU Block](images/cpu.png)
-
-* ALU, Register File, Data Path schematics
-
-![DataPath](images/datapath.png)
-
-* Stats for Nerds
-
-![CPU Block](images/stats.png)
 ---
 
 ## 🚀 **Future Enhancements**
