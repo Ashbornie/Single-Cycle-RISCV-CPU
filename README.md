@@ -23,8 +23,10 @@ This project demonstrates the design of a single-cycle CPU using the RISC-V ISA 
 ## 📂 **Project Structure**
 
 ```
-├── riscv_cpu.v          # Top-level CPU module
-├── t1c_riscv_cpu.v      # Alternate CPU architecture variant
+├── t1c_riscv_cpu.v      # Top-level CPU module
+├── riscv_cpu.v          # Sub level housing the controller and datapath
+├── controller.v         # Decodes the op code instructions
+├── datapath.v           # Processes the instructions
 ├── instr_mem.v          # Instruction Memory
 ├── data_mem.v           # Data Memory
 ├── tb.v                 # Testbench for CPU verification
@@ -42,16 +44,17 @@ This project demonstrates the design of a single-cycle CPU using the RISC-V ISA 
 
 ![TOP MODULE](images/top_module.png)
 
-
 ---
 
 ## ⚙️ **Key Components**
 
 * **riscv\_cpu.v**
   Main CPU module connecting all components.
+![CPU Block](images/cpu.png)
 
-* **instr\_mem.v & data\_mem.v**
-  Instruction and data memory blocks for storing code and data.
+* **controller.v**
+ Decodes instruction opcodes and generates control signals to drive ALU, memory, and register operations.
+![controller](images/controller.png)
 
 * **components/**
   Includes:
@@ -114,19 +117,21 @@ The file **rv32i\_test.s** tests all RV32I instructions:
 * **Jump**: JAL, JALR
 * **Upper Immediate**: LUI, AUIPC
 
-*(You can add an image snippet of waveform results or simulation output here.)*
-
 ---
 
 ## 📸 **Images**
 
 * CPU Block Diagram
-```
-![CPU Block](images/cpu.png)
-```
-* ALU, Register File, Data Path schematics
-  *(Add your images under `/images` folder and reference them here.)*
 
+![CPU Block](images/cpu.png)
+
+* ALU, Register File, Data Path schematics
+
+![DataPath](images/datapath.png)
+
+* Stats for Nerds
+
+![CPU Block](images/stats.png)
 ---
 
 ## 🚀 **Future Enhancements**
